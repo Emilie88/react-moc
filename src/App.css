@@ -1,0 +1,31 @@
+.title{
+  font-weight: normal;
+}
+.headerFlex{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourColumns{
+  display: flex;
+}
+.oneItem{
+  margin-left: 3px;
+}
+.cardsContainer{
+  display: flex;
+  flex-flow: row wrap;
+}
+.cardsItems{
+  margin: 5px;
+  width:32%;
+  flex-shrink: 3;
+
+}
+.dividerWidth{
+  width:100%;
+}
+.switchBtn{
+  float: right;
+  bottom: 55px;
+}

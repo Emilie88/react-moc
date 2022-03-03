@@ -1,0 +1,73 @@
+export interface DatasObject {
+    id: number,
+    img: string;
+    city: string,
+    description: string,
+    people: string,
+    hotelCount: number,
+    revenues: string,
+    surface: string,
+};
+export interface DatasItems extends Array<DatasObject>{};
+export const datas: DatasItems = [
+    {
+        id:1,
+        img: "/img/copenhagen.jpg",
+        city: "Copenhagen",
+        description: "Rådhuspladsen 1, 1550 København, Denmark",
+        people: "3.4 M" ,
+        hotelCount: 5000,
+        revenues: "70 000",
+        surface: "88.25",  
+    },
+    {
+        id: 2,
+        img: "/img/teheran.jpg",
+        city: "Tehran",
+        description: "Tehran, Azadi Square, Iran",
+        people: "8.6 M" ,
+        hotelCount: 400,
+        revenues: "30 000",
+        surface: "730",  
+    },
+    {
+        id: 3,
+        img: "/img/paris.jpg",
+        city: "Paris",
+        description: "Pl. de l'Hôtel de Ville, 75004 Paris",
+        people: "2.1 M" ,
+        hotelCount: 7000,
+        revenues: "50 000",
+        surface: "105.4",  
+    },
+    {
+        id:4,
+        img: "/img/london.jpg",
+        city: "London",
+        description: "London SW1A 0AA, United Kingdom",
+        people: "3.4 M" ,
+        hotelCount: 5000,
+        revenues: "90 000",
+        surface: "88.25",  
+    },
+    {
+        id: 5,
+        img: "/img/tokyo.jpg",
+        city: "Tokyo",
+        description: "Tokyo 105-0011, Japan",
+        people: "3.4 M" ,
+        hotelCount: 5000,
+        revenues: "70 000",
+        surface: "88.25",  
+    },
+    {
+        id: 6,
+        img: "/img/newYork.jpg",
+        city: "New York",
+        description: "New York, NY 10004, United State",
+        people: "3.4 M" ,
+        hotelCount: 5000,
+        revenues: "70 000",
+        surface: "88.25",  
+    }
+];
